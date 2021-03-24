@@ -1,0 +1,3 @@
+select i.name as "INSTITUTION NAME", c.name as "COURSE NAME", count(st.studentid) as "NUMBER OF STUDENTS"
+ from student st inner join course c on st.course = c.courseid
+  inner join institution i on c.institution = i.institutionid group by i.name, c.name;
