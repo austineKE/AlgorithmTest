@@ -2,7 +2,9 @@ package realestatelisttings;
 
 /**
  * 3 4 5 1
- *
+ * this is written by austine wamalwa
+ * A part time systems Engineer at safaricom PLC
+ * and a full time Engineer at TransUnion Kenya
  *
  */
 public class MissingNumberZekari {
